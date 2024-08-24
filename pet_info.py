@@ -1,5 +1,5 @@
+def coletar_informacoes_pet():
     nome = input("Nome do pet: ")
-
     while True:
         try:
             idade = int(input("Idade do pet (em anos): "))
@@ -24,5 +24,7 @@
     print(f"Nome: {nome}")
     print(f"Idade: {idade} anos")
     print(f"Peso: {peso} kg")
+
+
 
 coletar_informacoes_pet()
