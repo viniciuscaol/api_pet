@@ -12,12 +12,12 @@ docker run --name postgres-container \
 ```
 ##### Parâmetros do comando:
 
-**--name postgres-container:** Nome do container.
-**-e POSTGRES_USER=user:** Nome do usuário do banco de dados.
-**-e POSTGRES_PASSWORD=senha123:** Senha do usuário.
-**-e POSTGRES_DB=pet_db:** Nome do banco de dados.
-**-v $(pwd)/init.sql:/docker-entrypoint-initdb.d/init.sql:** Monta o arquivo init.sql no diretório de inicialização do PostgreSQL.
-**-p 5432:5432:** Mapeia a porta 5432 do container para a porta 5432 do host.
+**--name postgres-container:** Nome do container.</br>
+**-e POSTGRES_USER=user:** Nome do usuário do banco de dados.</br>
+**-e POSTGRES_PASSWORD=senha123:** Senha do usuário.</br>
+**-e POSTGRES_DB=pet_db:** Nome do banco de dados.</br>
+**-v $(pwd)/init.sql:/docker-entrypoint-initdb.d/init.sql:** Monta o arquivo init.sql no diretório de inicialização do PostgreSQL.</br>
+**-p 5432:5432:** Mapeia a porta 5432 do container para a porta 5432 do host.</br>
 **-d postgres:** Usa a imagem oficial do PostgreSQL e executa em modo destacado (background).
 
 ### Bibliotecas Necessárias
