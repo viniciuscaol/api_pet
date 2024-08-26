@@ -11,7 +11,7 @@ Este script em Python coleta informações básicas de um animal de estimação,
 ## Como Executar
 
 1. Certifique-se de ter o Python instalado em sua máquina.
-2. Copie o código presente no arquivo `pet_info.py`.
+2. Clone esse repositorio.
 3. No terminal, execute o seguinte comando para rodar o script:
 
 ```bash
