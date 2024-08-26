@@ -1,3 +1,4 @@
+def coletar_informacoes_pet():
     nome = input("Nome do pet: ")
 
     while True:
